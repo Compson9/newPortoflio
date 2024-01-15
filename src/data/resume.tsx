@@ -172,7 +172,31 @@ export const DATA = {
       video:
         "",
     },
-    
+    {
+      title: "NovaMart Ghana E-commerce App",
+      href: "https://novamartghana.vercel.app/",
+      dates: "January 2024", // You specified Jan 1st - 31st, so "January 2024" is appropriate
+      active: true, // Or false if the project is no longer actively being worked on
+      description:
+        "Developed a full-stack e-commerce application for NovaMart Ghana, featuring product browsing, shopping cart functionality, and integration with a CMS for content management.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "Sanity CMS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://novamartghana.vercel.app/",
+          icon: <Icons.globe className="size-3" />, // Assuming you have an Icons component imported
+        },
+      ],
+      image: "/novamart.png", // Placeholder - replace with the actual path to your image
+      video: "", // Leave empty if no video demonstration is available
+    },
+
     {
       title: "LiveDocs: Real-Time Collaborative Editor",
       href: "https://livetexteditor.vercel.app/sign-in",
