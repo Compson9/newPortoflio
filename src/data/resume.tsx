@@ -193,8 +193,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />, // Assuming you have an Icons component imported
         },
       ],
-      image: "/novamart.png", // Placeholder - replace with the actual path to your image
-      video: "", // Leave empty if no video demonstration is available
+      image: "/novamart.png",
+      video: "", 
     },
 
     {
