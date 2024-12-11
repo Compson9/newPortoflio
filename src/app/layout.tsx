@@ -69,6 +69,9 @@ export default function RootLayout({
               <source src="/weekend.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
+            <div className="mt-5">
+              <p className="md:text-[14px] text-[12px]">Click play to enjoy the melody while you explore</p>
+            </div>
             {children}
             <Navbar />
           </TooltipProvider>
