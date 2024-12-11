@@ -6,9 +6,9 @@ import { RainbowButton } from "./magicui/rainbow-button";
 
 export function RainbowButtonDemo() {
   return <RainbowButton>
-    <Link href="/Professional.pdf"
+    <Link href="/MyCv.pdf"
     className=" no-underline"
-     download="/Professional.pdf">
+     download="/MyCv.pdf">
     Download my Cv
     </Link>
     
