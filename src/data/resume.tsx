@@ -8,7 +8,7 @@ export const DATA = {
   location: "Ghana, Accra Adenta",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "A Software Engineer (Frontend Developer) with a passion for creating intuitive and engaging applications. I specialize in building sleek and functional apps with Next.js. Reactjs and Tailwind. Let's build something amazing together!",
+    "A Software Engineer (Frontend Developer) with a passion for creating intuitive and engaging applications. I specialize in building sleek and functional apps with Next.js. Reactjs and Tailwind",
   summary:
     "A passionate Frontend Developer with a strong foundation in Master of Information Systems from the University of Ghana, I specialize in crafting seamless and user-friendly web experiences using Next.js, React, and modern design tools. With a Master's-level education and hands-on experience in UI/UX design and web development, I thrive at the intersection of technology and creativity, building intuitive solutions that engage and inspire.",
   avatarUrl: "/profile3.jpg",

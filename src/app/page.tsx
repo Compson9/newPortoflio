@@ -17,27 +17,33 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
-        <div className="mx-auto w-full lg:max-w-6xl space-y-8">
+        <div className="mx-auto w-full space-y-8">
           <div className="gap-[100px] flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5">
+            <div className="flex-col flex">
+              <div  className="flex justify-between sm:gap-[100px] lg:gap-[500px] items-center">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                className="lg:text-5xl sm:w-[100px] lg:w-[400px] font-bold tracking-tighter xl:text-6xl/none"
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+
               />
-              <BlurFadeText
-                className="md:max-w-[800px] sm:max-w-[600px] mt-3 md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
-            </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
+               <BlurFade className="lg:w-[250px]" delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
+              </div>
+              
+              
+              <BlurFadeText
+                className="md:max-w-[800px] text-[14px] max-w-[600px] mt-3 md:text-xl"
+                delay={BLUR_FADE_DELAY}
+                text={DATA.description}
+              />
+            </div>
+           
           </div>
         </div>
       </section>
@@ -198,7 +204,7 @@ export default function Page() {
         </div>
       </section>
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-10">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
