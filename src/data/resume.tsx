@@ -37,28 +37,28 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Compson9",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/elvis-compson-78a590123",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/el_compson/status/1849190505617207382?s=46&t=wdiKziK1_xaLLSPmMYuPuA",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://youtube.com/@designdevshub?si=uk-o4cno5gD5bkZa",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -157,127 +157,82 @@ export const DATA = {
   
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Sleek AI Website ",
+      href: "https://compsonai.netlify.app/",
+      dates: "October 2024 - November 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a sleek and modern UI website with React and TailwindCSS, focusing on a clean, responsive design to enhance user engagement.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Tailwind", 
+        "React-icons"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://compsonai.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/brainwave.jpg",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://pub-83c5db439b4046849f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "LiveDocs: Real-Time Collaborative Editor",
+      href: "https://livetexteditor.vercel.app/sign-in",
+      dates: "June 2024 - September 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Created a Google Docs clone emphasizing real-time collaboration with features like secure GitHub authentication, real-time editing, document management, and cross-device responsiveness",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+      "TypeScript",
+      "Liveblocks",
+      "Lexical Editor",
+      "TailwindCSS",
+      "ClerkAuth",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
+          type: "Web app",
+          href: "https://livetexteditor.vercel.app/sign-in",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/text-editor.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
+    {
+      title: "LiveDocs: Real-Time Collaborative Editor",
+      href: "https://livetexteditor.vercel.app/sign-in",
+      dates: "June 2024 - September 2024",
+      active: true,
+      description:
+        "Created a Google Docs clone emphasizing real-time collaboration with features like secure GitHub authentication, real-time editing, document management, and cross-device responsiveness",
+      technologies: [
+        "Next.js",
+      "TypeScript",
+      "Liveblocks",
+      "Lexical Editor",
+      "TailwindCSS",
+      "ClerkAuth",
+      ],
+      links: [
+        {
+          type: "Web app",
+          href: "https://livetexteditor.vercel.app/sign-in",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/text-editor.png",
+      video:
+        "",
+    },
+  
+  
   ],
   hackathons: [
     {
