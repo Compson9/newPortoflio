@@ -6,7 +6,7 @@ import { RainbowButtonDemo } from "@/components/RainbowButtonDemo";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 // import Link from "next/link";
 import Markdown from "react-markdown";
@@ -172,7 +172,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
+                   I registered and attended{" "}
                   {DATA.hackathons.length}+ hackathons. People from around the
                   country would come together and build incredible things in 2-3
                   days. It was eye-opening to see the endless possibilities

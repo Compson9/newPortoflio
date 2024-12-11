@@ -65,6 +65,10 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
+          <audio controls autoPlay loop>
+              <source src="/weekend.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             {children}
             <Navbar />
           </TooltipProvider>

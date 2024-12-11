@@ -145,14 +145,7 @@ export const DATA = {
       start: "2016",
       end: "2020",
     },
-    {
-      school: "Fijai Secondary School",
-      href: "",
-      degree: "Business",
-      logoUrl: "/fijai.png",
-      start: "2013",
-      end: "2016",
-    },
+    
   ],
   
   projects: [
