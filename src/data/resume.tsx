@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Elvis Compson",
   initials: "EC",
-  url: "https://dillion.io",
+  url: "https://elviscompson.vercel.app/",
   location: "Ghana, Accra Adenta",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -78,12 +78,12 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Remote",
-      title: "UI/UX Designer",
+      title: "Senior Frontend developer",
       logoUrl: "/fashion.png",
-      start: "January 2024",
-      end: "July 2024",
+      start: "August 2024",
+      end: "Present",
       description:
-        "Designed screens for user, vendor, and rider apps to ensure cohesive experiences. Conducted user research to improve satisfaction, created wireframes and prototypes, and developed modern, functional interfaces aligned with the latest design principles.",
+        "Led the development of user, vendor, and rider application interfaces, implementing scalable and efficient frontend architecture. Wrote clean, maintainable code using modern frameworks and libraries, ensuring high performance and seamless user experiences. Collaborated with backend teams to integrate APIs, optimized application performance, and mentored junior developers to enhance code quality and adherence to best practices",
     },
 
     {
@@ -94,7 +94,7 @@ export const DATA = {
       title: "Front-End Developer",
       logoUrl: "/modexa.jpg",
       start: "August 2022",
-      end: "November 2024",
+      end: "september 2024",
       description:
         "Led a team of front-end developers in creating responsive user interfaces with Next.js and Tailwind CSS. Collaborated with back-end developers to integrate systems and databases, ensuring scalable and maintainable front-end architecture.",
     },
