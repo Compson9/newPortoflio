@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+// The changes was just made to the name of the folder
 
 export const DATA = {
   name: "Elvis Compson",
